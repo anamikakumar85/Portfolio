@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" integrity="sha256-2XFplPlrFClt0bIdPgpz8H7ojnk10H69xRqd9+uTShA=" crossorigin="anonymous" />
+    <title>Anamika Portfolio</title>
+  </head>
+  <body>
+    
+    <div class="container">
+      <header>
+        <div class="logo">
+          <h1>Anamika</h1>
+        </div>
+
+        <nav>
+          <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+          </div>
+          <ul class="nav-links">
+            <li><a href="#about">About me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#work">My Work</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+
+ 
+    <div class="container main-info-section">
+      <div class="text">
+        <h1>
+          <span>H</span>
+          <span class="m-left">i</span>
+          <span class="m-left">,</span>
+          <br>
+          <span>I</span>
+          <span class="m-left">'</span>
+          <span class="m-left">m</span>
+          <span class="name">A</span>
+          <span class="m-left name">n</span>
+          <span class="m-left name">a</span>
+          <span class="m-left name">m</span>
+          <span class="m-left name">i</span>
+          <span class="m-left name">k</span>
+          <span class="m-left name">a</span>
+          <span class="m-left">,</span>
+          <br>
+          <span>W</span>
+          <span class="m-left">e</span>
+          <span class="m-left">b</span>
+          <span>D</span>
+          <span class="m-left">e</span>
+          <span class="m-left">v</span>
+          <span class="m-left">e</span>
+          <span class="m-left">l</span>
+          <span class="m-left">o</span>
+          <span class="m-left">p</span>
+          <span class="m-left">e</span>
+          <span class="m-left">r</span>
+          <span class="m-left">.</span>
+        </h1>
+        <p>HTML,CSS / JavaScript / UI,UX / PHP</p>
+        <a class="form_button" href="#contact">Contact me</a>
+        <div class="middle">
+          <a class="btn" href="https://www.xing.com/profile/Anamika_Kumar/cv" target="_blank">
+            <i class="fab fa-xing"></i>
+          </a>
+          <a class="btn" href="https://www.linkedin.com/in/anamika-kumar-5a355b55/" target="_blank">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a class="btn" href="mailto:anamika.panwar@gamail.com">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+      <div class="profile-image">
+        <img src="img/bg.jpg" alt="">
+    </div>
+    </div>
+
+
+
+    <div class="container about" id="about">
+      <h1>About</h1>
+      <div class="about-me-info">
+        <p>Hello, I'm a Web  developer based in Stuttgart, Germany.</p>
+        <p>I started my career as a Web & Graphic designer in India. After enjoying  6 years of  maternity leave,
+          I'm restarting my professional career.</p>
+        <p>My passion is creating, and I find happiness in being a better me today than the me yesterday.</p>  
+        
+          <a class="cvbutton" href="Anamika CV.pdf" alt="" download target="_blank">
+            <svg>
+              <rect></rect>
+            </svg>
+            DOWNLOAD CV
+          </a>
+      </div>
+      
+      <img src="img/dotted-shape.png" alt="">
+    </div>
+
+
+
+    <div class="container" id="skills">
+      <h1>Skills</h1>
+      <p class="skills-info">I love building things for the web, focusing on UI and accessibility. I like to work with JavaScript , 
+        HTML, CSS  but I am always open to learn new things.Besides coding, I enjoy creating user-centered UIs and I also have
+         learned Adobe XD usability and accessibility evaluation. Also, I enjoy  backend scripting with PHP.</p>
+        <div class="html">
+          <div class="tag-html">
+            <p>HTML/CSS</p>
+          </div>
+          <div class="progressbar">
+            <div class="bar-html"></div>
+          </div>
+        </div>
+        <div class="html">
+          <div class="tag-javascript">
+            <p>JavaScript</p>
+          </div>
+          <div class="progressbar">
+            <div class="bar-javascript"></div>
+          </div>
+        </div>
+        <div class="html">
+          <div class="tag-ui/ux">
+            <p>UI/UX</p>
+          </div>
+          <div class="progressbar">
+            <div class="bar-ui"></div>
+          </div>
+        </div>
+        <div class="html">
+          <div class="tag-php">
+            <p>PHP</p>
+          </div>
+          <div class="progressbar">
+            <div class="bar-php"></div>
+          </div>
+        </div>
+    </div>
+
+
+    <div class="container work" id="work">
+      <h1>Work</h1>
+      <div class="work-category">
+        <button id="designing" class="active" onclick="showRequiredCategory(this)">Web Designing</button>
+        <button id="animation" onclick="showRequiredCategory(this)">Graphic Design</button>
+        <button id="project" onclick="showRequiredCategory(this)">JavaScript Projects</button>
+      </div>
+      <div class="category-designing showCategory">
+        <a href="https://anamikakumar85.github.io/HTML5undCSS/" target="_blank"><img src="img/html-css.png"></a>
+        <a href="https://xd.adobe.com/view/31671d09-18f8-49c3-6c75-1026a7316f7e-4756/" target="_blank"><img src="img/ui-ux.png"></a>
+      </div>
+      <div class="category-animation hideCategory">
+        <a href="img/gr1.pdf" target="_blank"><img src="img/gr1.png"></a>
+        <a href="img/gr2.pdf" target="_blank"><img src="img/gr2.png"></a>
+        <a href="img/gr3.pdf" target="_blank"><img src="img/gr3.png"></a>
+      </div>
+      <div class="category-project hideCategory">
+        <a href="https://anamikakumar85.github.io/Javascript/"target="_blank"><img src="img/js-1.png"></a>
+        <a href="https://anamikakumar85.github.io/space-invader/"target="_blank"><img src="img/sp-invader.png"></a>
+      
+      </div>
+    </div>
+
+
+
+    <div class="container contact" id="contact">
+      <h1>Contact</h1>
+      
+      <form id="gform" method="POST" class="pure-form pure-form-stacked" data-email="from_email@example.com"
+          action="https://script.google.com/macros/s/AKfycbyBxKeCrpUHlIGs5feJC1nJB43Hsw0g5QiYJ_uFcA/exec">
+
+          
+          <input id="name" type="text" name="name"  placeholder="Name" />
+          <textarea name="message"  cols="30" rows="10" placeholder="Message"></textarea>
+          <input id="email" name="email" type="email" value=""
+               required placeholder="your.name@email.com" />
+          <input type="submit" class="button-success pure-button button-xlarge">
+        </form>
+        <!-- Customise the Thankyou Message People See when they submit the form: -->
+          <div style="display:none;" class="thankyou_message">
+            <h2>
+                <em>Thanks</em> for contacting us!
+                We will get back to you soon!
+            </h2>
+        </div>
+      
+    </div>
+
+    
+    <footer>
+      <hr>
+      <p>2020 Copyright,All Rights Reserved</p>
+      <div class="scrolltop float-right">
+				<i class="fa fa-arrow-up" onclick="topFunction()" id ="myBtn"></i>
+		</div>
+    </footer>
+
+
+
+
+
+    
+    <script src="js/ScrollMagic.min.js"></script>
+    <script src="js/animation.gsap.min.js"></script>
+    <script src="js/TimelineLite.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/CSSPlugin.min.js"></script>
+    <script src="js/script.js"></script>
+    <script data-cfasync="false" type="text/javascript" src="js/form-submission-handler.js"></script>
+  </body>
+</html>
