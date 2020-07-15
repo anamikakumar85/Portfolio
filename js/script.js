@@ -44,7 +44,7 @@ const showRequiredCategory = event => {
     getCategory.classList.add('showCategory')
 }
 
-	  	//Get the button
+	  	//***********Get the button ************************/
 	  	mybutton = document.getElementById("myBtn");
 	  	//when the user scroll down 20px from the top of document, show the button
 	  	window.onscroll = function(){scrollFunction()};
@@ -64,12 +64,13 @@ const showRequiredCategory = event => {
           }
 
 
-////////////////////form response ////////////////////////
+////////////////////nav animation ////////////////////////
 const hamburger = document.querySelector(".hamburger");
 const navlinks = document.querySelector(".nav-links");
 const links = document.querySelectorAll(".nav-links li");
 
 
-hamburger.addEventListener("click", () => {
+hamburger.addEventListener('click', () => {
     navlinks.classList.toggle("open");
-});
+}); 
+
