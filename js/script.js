@@ -51,9 +51,9 @@ const showRequiredCategory = event => {
 
 	  	function scrollFunction(){
 	  		if(document.body.scrollTop > 20 || document.documentElement.scrollTop > 20){
-	  			mybutton.style.display = "block";
+                  mybutton.style.display = "block";
 	  		}else{
-	  			mybutton.style.display = "none";
+                  mybutton.style.display = "none";    
 	  		}
 	  	}
 
@@ -71,6 +71,12 @@ const links = document.querySelectorAll(".nav-links li");
 
 
 hamburger.addEventListener('click', () => {
+   
     navlinks.classList.toggle("open");
+   
 }); 
+navlinks.addEventListener('click',() => {
+       navlinks.classList.toggle("open");
+});
+
 
